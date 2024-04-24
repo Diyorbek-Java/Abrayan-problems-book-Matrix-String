@@ -37,7 +37,7 @@ public class Solution35 {
                 }
             }
             if (!hasEven) {
-                columnNumber = j + 1; // Adjusting to start from 1
+                columnNumber = j + 1;
                 break;
             }
         }

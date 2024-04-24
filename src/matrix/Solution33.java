@@ -41,7 +41,7 @@ public class Solution33 {
             }
 
             if (positiveCount == negativeCount) {
-                columnNumber = j + 1; // Adjusting to start from 1
+                columnNumber = j + 1;
                 break;
             }
         }

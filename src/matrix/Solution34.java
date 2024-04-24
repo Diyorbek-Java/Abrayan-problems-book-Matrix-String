@@ -36,7 +36,7 @@ public class Solution34 {
                 }
             }
             if (!hasOdd) {
-                rowNumber = i + 1; // Adjusting to start from 1
+                rowNumber = i + 1;
                 break;
             }
         }
