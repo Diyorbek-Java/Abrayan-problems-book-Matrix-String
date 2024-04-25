@@ -10,7 +10,11 @@ public class Solution22 {
                 """);
         System.out.print("Enter a string: ");
         String str = scanner.nextLine();
-        
+        int digitSum = 0;
+        for (int i = 0; i < str.length(); i++) {
+            digitSum += Character.getNumericValue(str.charAt(i));
+        }
+        System.out.println("The sum of digits of this integer is " + digitSum);
 
     }
 
